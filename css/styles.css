@@ -112,8 +112,8 @@
 }
 
  .project2-img {
-   height: 250px;
-   width: 140px;
+   height: auto;
+   width: 100%;
    float: right;
    margin-left: 20px;
    margin-bottom: 20px;
@@ -124,7 +124,7 @@
  }
 
 .project-text2 {
-  margin-left: 60%;
+  margin-left: 55%;
   width: 50%;
   color: #fff;
 }
@@ -135,7 +135,6 @@
 
 .project3-img {
   height:auto;
-  /* margin-right: 20px; */
   width: 100%;
    margin-bottom: 20px;
   float: left;
