@@ -96,10 +96,10 @@
  }
 
  .project1-img {
-   width: 300px;
+   height: auto;
+   width:100%;
    margin-right: 20px;
    margin-bottom: 20px;
-   float: left;
  }
 
  .project1 {
@@ -107,8 +107,8 @@
  }
 
 .project-text1 {
-  width:55%;
   color: #fff;
+  width: 50%;
 }
 
  .project2-img {
@@ -146,6 +146,12 @@
 .project-text3 {
  width: 50%;
  color: #fff;
+}
+
+.project-title {
+text-align: center;
+border-radius: 10rem;
+
 }
 
 
