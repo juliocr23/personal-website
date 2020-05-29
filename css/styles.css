@@ -134,8 +134,9 @@
 }
 
 .project3-img {
-  height: 250px;
-  margin-right: 20px;
+  height:auto;
+  /* margin-right: 20px; */
+  width: 100%;
    margin-bottom: 20px;
   float: left;
 }
