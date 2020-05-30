@@ -11,7 +11,6 @@
 }
 
 .navbar {
-  position: fixed;
   right: 0;
   left: 0;
   z-index: 1;
@@ -200,7 +199,6 @@ h2 {
   color:#216583;
 }
 
-
 .social-media-item {
   list-style: none;
   display: inline-block;
@@ -225,10 +223,14 @@ h2 {
   color: white;
 }
 
-@media (max-width:  845px) {
 
-  .project-text2 {
-    margin-left: 50%;
+
+@media (max-width: 385px) {
+   .intro-paragraph {
+      font-size: 15px;
+  }
+  .project-title  {
+    font-size: 1rem;
   }
 }
 
@@ -241,14 +243,13 @@ h2 {
   }
 }
 
-@media (max-width: 385px) {
-   .intro-paragraph {
-      font-size: 15px;
-  }
-  .project-title  {
-    font-size: 1rem;
+@media (max-width:  845px) {
+
+  .project-text2 {
+    margin-left: 50%;
   }
 }
+
 
 @media (max-width: 1000px) {
   .nav-link {
