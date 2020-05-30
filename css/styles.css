@@ -151,6 +151,7 @@
 .project-title {
 text-align: center;
 border-radius: 10rem;
+font-size: 1.7rem;
 
 }
 
@@ -233,6 +234,18 @@ a:hover{
 @media (max-width: 635px) {
    .intro-paragraph {
       font-size: 15px;
+  }
+  .project-title  {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 385px) {
+   .intro-paragraph {
+      font-size: 15px;
+  }
+  .project-title  {
+    font-size: 1rem;
   }
 }
 
