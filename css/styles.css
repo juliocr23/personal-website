@@ -17,10 +17,8 @@
   opacity: 0.9;
 
   margin: auto;
-  padding:  1.5rem 7%;
-  transition: padding-top .3s, padding-bottom .3s;
+  padding:  1rem 7%;
   background-color: #212529;
-  margin-bottom:120px;
 }
 
 .navbar-brand{
@@ -34,11 +32,9 @@
     font-family: "Montserrat-Light";
 }
 
-
 .container-fluid {
-
-  padding: 0 0 100px 0;
-  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .sections-title {
@@ -52,8 +48,8 @@
 }
 
 .profile{
-  padding-top: 300px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .greetings {
@@ -74,8 +70,16 @@
 
  #about {
    font-family: 'Merriweather', serif;
-   text-align: center;
    padding-bottom: 10%;
+ }
+
+ .education-link {
+   color: #348498;
+ }
+
+ .education-link:hover {
+   text-decoration: none;
+   color: #216583;
  }
 
 
@@ -93,6 +97,10 @@
   font-family: 'Merriweather', serif;
   background-color: #66BFBF;
   padding-bottom: 10%;
+ }
+
+ .row-project{
+   margin-bottom: 10%;
  }
 
  .project1-img {
@@ -152,7 +160,10 @@
 text-align: center;
 border-radius: 10rem;
 font-size: 1.7rem;
+}
 
+.show-more{
+  text-align: center;
 }
 
 
